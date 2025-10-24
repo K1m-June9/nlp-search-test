@@ -1,0 +1,215 @@
+{
+  "experiment_info": {
+    "num_samples": 100,
+    "random_seed": 42,
+    "evaluation_date": "2025-05-25T16:59:05.701931",
+    "methods": [
+      "KeyBERT",
+      "TF-IDF",
+      "TextRank"
+    ],
+    "metrics": [
+      "Precision@5",
+      "Recall@5",
+      "F1@5",
+      "MAP@10",
+      "NDCG@5",
+      "Semantic_Similarity"
+    ]
+  },
+  "performance_summary": {
+    "keybert": {
+      "precision": {
+        "mean": 0.008,
+        "std": 0.03919183588453086,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.009333333333333334,
+        "std": 0.047159304490206395,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.008500000000000002,
+        "std": 0.041865857210858594,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.008,
+        "std": 0.04349201714746691,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.01317179239206797,
+        "std": 0.06794774551877057,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.43860164284706116,
+        "std": 0.10031239688396454,
+        "median": 0.4373556077480316
+      }
+    },
+    "tfidf": {
+      "precision": {
+        "mean": 0.008,
+        "std": 0.03919183588453085,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.007595238095238095,
+        "std": 0.038067988766251934,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.007707070707070707,
+        "std": 0.037984003367003215,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.0035773809523809525,
+        "std": 0.021369378396431816,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.0076969789656941715,
+        "std": 0.041448969770555545,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.35616965234279635,
+        "std": 0.19349300942090483,
+        "median": 0.4005955308675766
+      }
+    },
+    "textrank": {
+      "precision": {
+        "mean": 0.08199999999999999,
+        "std": 0.11694443124834975,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.09127380952380952,
+        "std": 0.13629076134127407,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.08384121434121435,
+        "std": 0.12019852136818646,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.06962966269841271,
+        "std": 0.10961751051010062,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.1144044842074614,
+        "std": 0.16935751697055973,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.5759366154670715,
+        "std": 0.10519334673881531,
+        "median": 0.5631944537162781
+      }
+    }
+  },
+  "statistical_results": {
+    "keybert_vs_tfidf": {
+      "precision": {
+        "t_statistic": 0.0,
+        "t_pvalue": 1.0,
+        "wilcoxon_statistic": 18.0,
+        "wilcoxon_pvalue": 1.0,
+        "cohens_d": 0.0,
+        "mean_diff": 0.0
+      },
+      "recall": {
+        "t_statistic": 0.27999273813960135,
+        "t_pvalue": 0.7800672709240779,
+        "wilcoxon_statistic": 14.5,
+        "wilcoxon_pvalue": 0.6197414285602061,
+        "cohens_d": 0.04055719853090422,
+        "mean_diff": 0.001738095238095239
+      },
+      "f1": {
+        "t_statistic": 0.13679011793337853,
+        "t_pvalue": 0.8914744903290437,
+        "wilcoxon_statistic": 14.5,
+        "wilcoxon_pvalue": 0.6197414285602061,
+        "cohens_d": 0.0198370781300379,
+        "mean_diff": 0.0007929292929292949
+      },
+      "map": {
+        "t_statistic": 0.8972211558967017,
+        "t_pvalue": 0.3717776358687924,
+        "wilcoxon_statistic": 17.0,
+        "wilcoxon_pvalue": 0.5128151488077395,
+        "cohens_d": 0.12907033684446734,
+        "mean_diff": 0.004422619047619048
+      },
+      "ndcg": {
+        "t_statistic": 0.6737132933635095,
+        "t_pvalue": 0.5020635260228603,
+        "wilcoxon_statistic": 12.0,
+        "wilcoxon_pvalue": 0.3979076689546348,
+        "cohens_d": 0.09727785519585164,
+        "mean_diff": 0.0054748134263737985
+      },
+      "semantic_sim": {
+        "t_statistic": 3.933478276043436,
+        "t_pvalue": 0.00015549243779846967,
+        "wilcoxon_statistic": 1577.0,
+        "wilcoxon_pvalue": 0.0011159620965899696,
+        "cohens_d": 0.5348774443295934,
+        "mean_diff": 0.08243199050426481
+      }
+    },
+    "keybert_vs_textrank": {
+      "precision": {
+        "t_statistic": -5.871753285401192,
+        "t_pvalue": 5.775903114204543e-08,
+        "wilcoxon_statistic": 51.0,
+        "wilcoxon_pvalue": 4.439963450632891e-07,
+        "cohens_d": -0.8485033458694294,
+        "mean_diff": -0.07399999999999998
+      },
+      "recall": {
+        "t_statistic": -5.724984554470666,
+        "t_pvalue": 1.1095601427133205e-07,
+        "wilcoxon_statistic": 46.5,
+        "wilcoxon_pvalue": 2.401550073457158e-06,
+        "cohens_d": -0.8035084753661546,
+        "mean_diff": -0.08194047619047619
+      },
+      "f1": {
+        "t_statistic": -5.858005968498986,
+        "t_pvalue": 6.142014478742676e-08,
+        "wilcoxon_statistic": 46.5,
+        "wilcoxon_pvalue": 2.417806950777907e-06,
+        "cohens_d": -0.8371133767526069,
+        "mean_diff": -0.07534121434121434
+      },
+      "map": {
+        "t_statistic": -5.135020240571985,
+        "t_pvalue": 1.4135700729716162e-06,
+        "wilcoxon_statistic": 104.5,
+        "wilcoxon_pvalue": 7.008513720387026e-07,
+        "cohens_d": -0.7390595080994139,
+        "mean_diff": -0.06162966269841271
+      },
+      "ndcg": {
+        "t_statistic": -5.429495494972118,
+        "t_pvalue": 4.0359296589007147e-07,
+        "wilcoxon_statistic": 65.0,
+        "wilcoxon_pvalue": 5.389753888752416e-06,
+        "cohens_d": -0.7845508000988217,
+        "mean_diff": -0.10123269181539343
+      },
+      "semantic_sim": {
+        "t_statistic": -13.913553536585738,
+        "t_pvalue": 4.952941346470367e-25,
+        "wilcoxon_statistic": 134.0,
+        "wilcoxon_pvalue": 2.0175487407088173e-16,
+        "cohens_d": 

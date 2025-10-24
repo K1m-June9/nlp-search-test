@@ -1,0 +1,283 @@
+{
+  "experiment_info": {
+    "num_samples": 100,
+    "random_seed": 42,
+    "evaluation_date": "2025-05-25T17:17:52.606246",
+    "methods": [
+      "KeyBERT",
+      "TF-IDF",
+      "TextRank",
+      "Hybrid"
+    ],
+    "improvements": [
+      "Advanced Korean tokenizer (KoNLPy)",
+      "Korean news corpus for TF-IDF",
+      "Optimized KeyBERT parameters",
+      "Improved TextRank with distance weighting",
+      "Hybrid method combining TextRank and KeyBERT"
+    ]
+  },
+  "performance_summary": {
+    "keybert": {
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "partial_match": {
+        "mean": 0.07,
+        "std": 0.13674794331177342,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.63929283618927,
+        "std": 0.05733770877122879,
+        "median": 0.6368674039840698
+      }
+    },
+    "tfidf": {
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "partial_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      }
+    },
+    "textrank": {
+      "precision": {
+        "mean": 0.006000000000000001,
+        "std": 0.03411744421846396,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.0085,
+        "std": 0.05614935440412472,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.006412698412698413,
+        "std": 0.03803693951873133,
+        "median": 0.0
+      },
+      "partial_match": {
+        "mean": 0.046000000000000006,
+        "std": 0.10141005867269777,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.002998280423280424,
+        "std": 0.012724822357303983,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.006022035957316291,
+        "std": 0.03481857404038423,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.6738967895507812,
+        "std": 0.05822274088859558,
+        "median": 0.6752643585205078
+      }
+    },
+    "hybrid": {
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "partial_match": {
+        "mean": 0.07600000000000001,
+        "std": 0.1289340916902896,
+        "median": 0.0
+      },
+      "map": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "ndcg": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "semantic_sim": {
+        "mean": 0.6453059911727905,
+        "std": 0.05577230080962181,
+        "median": 0.6455850005149841
+      }
+    }
+  },
+  "statistical_results": {
+    "keybert_vs_tfidf": {
+      "precision": {
+        "t_statistic": NaN,
+        "t_pvalue": NaN,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": NaN,
+        "cohens_d": 0,
+        "mean_diff": 0.0
+      },
+      "recall": {
+        "t_statistic": NaN,
+        "t_pvalue": NaN,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": NaN,
+        "cohens_d": 0,
+        "mean_diff": 0.0
+      },
+      "f1": {
+        "t_statistic": NaN,
+        "t_pvalue": NaN,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": NaN,
+        "cohens_d": 0,
+        "mean_diff": 0.0
+      },
+      "partial_match": {
+        "t_statistic": 5.093248125762994,
+        "t_pvalue": 1.6837800114673588e-06,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 5.330114401995051e-06,
+        "cohens_d": 0.723922765993027,
+        "mean_diff": 0.07
+      },
+      "map": {
+        "t_statistic": NaN,
+        "t_pvalue": NaN,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": NaN,
+        "cohens_d": 0,
+        "mean_diff": 0.0
+      },
+      "ndcg": {
+        "t_statistic": NaN,
+        "t_pvalue": NaN,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": NaN,
+        "cohens_d": 0,
+        "mean_diff": 0.0
+      },
+      "semantic_sim": {
+        "t_statistic": 110.93716413030128,
+        "t_pvalue": 1.1318944129324105e-105,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 3.896559845095909e-18,
+        "cohens_d": 15.767923758773929,
+        "mean_diff": 0.63929283618927
+      }
+    },
+    "keybert_vs_textrank": {
+      "precision": {
+        "t_statistic": -1.7498158960596666,
+        "t_pvalue": 0.08324862524496096,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0832645166635504,
+        "cohens_d": -0.24870800168690355,
+        "mean_diff": -0.006000000000000001
+      },
+      "recall": {
+        "t_statistic": -1.506231604113509,
+        "t_pvalue": 0.135191926651073,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.10880943004054568,
+        "cohens_d": -0.21408643799630692,
+        "mean_diff": -0.0085
+      },
+      "f1": {
+        "t_statistic": -1.6774626032797337,
+        "t_pvalue": 0.09660667024205602,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.10880943004054568,
+        "cohens_d": -0.23842415245265763,
+        "mean_diff": -0.006412698412698413
+      },
+      "partial_match": {
+        "t_statistic": 1.4634981800729796,
+        "t_pvalue": 0.14649899597935323,
+        "wilcoxon_statistic": 172.0,
+        "wilcoxon_pvalue": 0.11912373888071454,
+        "cohens_d": 0.199364156245483,
+        "mean_diff": 0.024
+      },
+      "map": {
+        "t_statistic": -2.344434578589122,
+        "t_pvalue": 0.02105307852841339,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.011616044899262472,
+        "cohens_d": -0.33322342106937636,
+        "mean_diff": -0.002998280423280424
+      },
+      "ndcg": {
+        "t_statistic": -1.7208775168059482,
+        "t_pvalue": 0.0883969482939684,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.10880943004054568,
+        "cohens_d": -0.2445948795621948,
+        "mean_diff": -0.006022035957316291
+      },
+      "semantic_sim": {
+        "t_statistic": -5.809653123339164,
+        "t_pvalue": 7.620309251291142e-08,
+        "wilcoxon_statistic": 1067.0,
+        "wilcoxon_pvalue": 5.356627498815635e-07,
+        "cohens_d": 
