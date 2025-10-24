@@ -1,0 +1,140 @@
+{
+  "evaluation_info": {
+    "pdf_file": "/content/test.pdf",
+    "evaluation_date": "2025-05-26T11:09:43.562131",
+    "device": "cuda"
+  },
+  "document_analysis": {
+    "total_pages": 49,
+    "raw_text_length": 52837,
+    "processed_text_length": 49136,
+    "raw_char_count": 41626,
+    "processed_char_count": 37931,
+    "word_count": 10749,
+    "line_count": 1323
+  },
+  "token_analysis": {
+    "total_tokens": 23280,
+    "max_allowed_tokens": 1024,
+    "token_overflow": 22256,
+    "overflow_ratio": 21.734375,
+    "can_process": false,
+    "required_chunks": 23
+  },
+  "vanilla_kobart_result": {
+    "success": true,
+    "summary": "사회경제구조와 취약계층은 국민기초생활수급자, 장애인, 여성, 청년, 노령과, 이주민, 북한이탈주민, 출소자 등으로 이해되고 있는 한국 사회에서 취약계층의 범주화 1담을1 취약차주 자영업자와 청년 27동부2 빈곤 노인 31ECD3 역사적 맥락에 기초한 구조적 접근 3민주화2 정치경제사회복지의 궤적과 취약계층  4ED1 경제적 측면: 성장방식의 변화와 취약계층 5 강조하는2 공적 복지 측면: 제한적인 공적 복지의 역할 13\n3 문제를 개선하지 못하는 정치 17선으로3.",
+    "processing_time": 1.8272771835327148,
+    "memory_used_mb": 0.2578125,
+    "gpu_memory_used_mb": 0.00732421875,
+    "input_tokens_used": 1024,
+    "tokens_truncated": 22256,
+    "truncation_ratio": 0.9560137457044674
+  },
+  "chunking_analysis": {
+    "chunk_512_overlap_10": {
+      "chunk_size": 512,
+      "overlap_ratio": 0.1,
+      "overlap_tokens": 51,
+      "effective_chunk_size": 461,
+      "num_chunks": 51,
+      "total_processing_tokens": 26112,
+      "processing_overhead": 0.12164948453608247,
+      "estimated_processing_time": 102.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_512_overlap_20": {
+      "chunk_size": 512,
+      "overlap_ratio": 0.2,
+      "overlap_tokens": 102,
+      "effective_chunk_size": 410,
+      "num_chunks": 57,
+      "total_processing_tokens": 29184,
+      "processing_overhead": 0.2536082474226804,
+      "estimated_processing_time": 114.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_512_overlap_30": {
+      "chunk_size": 512,
+      "overlap_ratio": 0.3,
+      "overlap_tokens": 153,
+      "effective_chunk_size": 359,
+      "num_chunks": 65,
+      "total_processing_tokens": 33280,
+      "processing_overhead": 0.42955326460481097,
+      "estimated_processing_time": 130.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_768_overlap_10": {
+      "chunk_size": 768,
+      "overlap_ratio": 0.1,
+      "overlap_tokens": 76,
+      "effective_chunk_size": 692,
+      "num_chunks": 34,
+      "total_processing_tokens": 26112,
+      "processing_overhead": 0.12164948453608247,
+      "estimated_processing_time": 68.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_768_overlap_20": {
+      "chunk_size": 768,
+      "overlap_ratio": 0.2,
+      "overlap_tokens": 153,
+      "effective_chunk_size": 615,
+      "num_chunks": 38,
+      "total_processing_tokens": 29184,
+      "processing_overhead": 0.2536082474226804,
+      "estimated_processing_time": 76.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_768_overlap_30": {
+      "chunk_size": 768,
+      "overlap_ratio": 0.3,
+      "overlap_tokens": 230,
+      "effective_chunk_size": 538,
+      "num_chunks": 44,
+      "total_processing_tokens": 33792,
+      "processing_overhead": 0.4515463917525773,
+      "estimated_processing_time": 88.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_1024_overlap_10": {
+      "chunk_size": 1024,
+      "overlap_ratio": 0.1,
+      "overlap_tokens": 102,
+      "effective_chunk_size": 922,
+      "num_chunks": 26,
+      "total_processing_tokens": 26624,
+      "processing_overhead": 0.1436426116838488,
+      "estimated_processing_time": 52.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_1024_overlap_20": {
+      "chunk_size": 1024,
+      "overlap_ratio": 0.2,
+      "overlap_tokens": 204,
+      "effective_chunk_size": 820,
+      "num_chunks": 29,
+      "total_processing_tokens": 29696,
+      "processing_overhead": 0.27560137457044676,
+      "estimated_processing_time": 58.0,
+      "context_loss_risk": "High"
+    },
+    "chunk_1024_overlap_30": {
+      "chunk_size": 1024,
+      "overlap_ratio": 0.3,
+      "overlap_tokens": 307,
+      "effective_chunk_size": 717,
+      "num_chunks": 33,
+      "total_processing_tokens": 33792,
+      "processing_overhead": 0.4515463917525773,
+      "estimated_processing_time": 66.0,
+      "context_loss_risk": "High"
+    }
+  },
+  "model_config": {
+    "max_position_embeddings": 1026,
+    "max_length": 1024,
+    "vocab_size": 30000
+  }
+}

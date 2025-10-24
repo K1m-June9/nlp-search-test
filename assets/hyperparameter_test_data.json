@@ -1,0 +1,376 @@
+[
+  {
+    "name": "baseline",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1960~1970년대, 1980년대 민주화 이전까지 권위주의 정권하에서 한국인 절대빈곤에서 벗어났던 한국 사회를 이해하는데 중요한 근거 중 하나인  '- 3 -n◯첫 번째 그림은 취약계층을 범주화하는 축을 젠더, 계급/계층/세대로 분류한 것임과 동시에 여성, 저소득층, 청년이 취약계층의 한 그룹으로 범주화 될 수 있음을 알 수 있다.",
+    "execution_time": 104.96755480766296,
+    "analysis": {
+      "length": 187,
+      "sentence_count": 1,
+      "avg_sentence_length": 187.0,
+      "repetition_score": 0.024,
+      "keyword_density": 0.238,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:05:01.441333"
+  },
+  {
+    "name": "low_beams",
+    "config": {
+      "num_beams": 3,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대를 사회경제적 측면에서 구조화한 취약계층의 범주화 그림은 비이성애자 집단의 경우 거주 \\n지역, 계급/계층, 세대 등과 관련 없이 차별이 일상적이라는 점을 고려해, 단일 축으로도 취약계층을 범주화 할 수 있다고 전했다.    ﻿   http://www.fresh.org.net/frsh.html/",
+    "execution_time": 93.69785022735596,
+    "analysis": {
+      "length": 171,
+      "sentence_count": 6,
+      "avg_sentence_length": 28.5,
+      "repetition_score": 0.032,
+      "keyword_density": 0.258,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:06:35.139417"
+  },
+  {
+    "name": "high_beams",
+    "config": {
+      "num_beams": 9,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대를 사회경제적 위기를 대표할 수 있는 \\n소득불평등, 합계출산율, 자살률의 변화를 통해 한국 사회에서 취약계층이 구조화되는 맥락을 살펴 볼 예정이며, 이 지표는 권위주의 정권 시기 한국인 절대빈곤에서 벗어났던 1965년만 해도 한국의 빈곤율이 무려 %에 달했던 것을 생각하면 매우 일반적이었다고 평가할 수 있을것으로 예상된다.",
+    "execution_time": 101.88434720039368,
+    "analysis": {
+      "length": 188,
+      "sentence_count": 1,
+      "avg_sentence_length": 188.0,
+      "repetition_score": 0.024,
+      "keyword_density": 0.286,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:08:17.023988"
+  },
+  {
+    "name": "short_summary",
+    "config": {
+      "num_beams": 6,
+      "max_length": 100,
+      "min_length": 50,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대를 사회경제적 위기를 대표할 수 있는 \\n소득불평등, 합계출산율, 자살률의 변화를 확인 할 수 있으며, 한국 경제의 수출주도 성장을 주도했던 대기업의 생산방식이 노동자의 숙련을 우회해 생산성을 높이는 방향으로 전환했다는 것을 보여주는 로봇 밀도가 1990년대를 경과하면서 급격하게 높아진 것을 확인할 수 있다.",
+    "execution_time": 74.51360440254211,
+    "analysis": {
+      "length": 179,
+      "sentence_count": 1,
+      "avg_sentence_length": 179.0,
+      "repetition_score": 0.1,
+      "keyword_density": 0.325,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:09:31.537822"
+  },
+  {
+    "name": "long_summary",
+    "config": {
+      "num_beams": 6,
+      "max_length": 200,
+      "min_length": 100,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "비이애자 집단의 경우 거주 \\n지역, 계급/계층, 세대 등과 관련 없이 차별이 일상적이라는 점을 고려하여 단일 축으로도 취약계층을 범주화 할 수 있을 것으로 예상되며, 이 보고서는 정치, 경제, 사회(복지)라는 축을 중심으로 한국 사회에서 취약계층\\n이 구조화되는 맥락을 살펴 볼 예정임과 동시에 성소수자에 대한 차별이 강고하게 남아있는지는 한국 사회의 산업화와 성장 과\\n', '- 4 -\\n정을 역사적 맥락에서 집어 보면서 확인할 수 있다.",
+    "execution_time": 130.85342812538147,
+    "analysis": {
+      "length": 248,
+      "sentence_count": 1,
+      "avg_sentence_length": 248.0,
+      "repetition_score": 0.051,
+      "keyword_density": 0.254,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:11:42.391492"
+  },
+  {
+    "name": "low_repetition",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 2.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대를 사회경제적 측면에서 구조화한 취약계층을 범주화하는 축을 젠더, 계급/계층/세대로 분류한 것임과 동시에 여성, 저소득층, 청년이 취약계층의 한 그룹으로 범주화 될 수 있음을 알 수 있는 자료로 '복지 \\n확대와 성장의 역설' 이라는 미발표 논문을 인용하여 한국 사회를 이해하는데는 1990년대 이후를 중요하게 고려해야 한다고 전했다.",
+    "execution_time": 103.35645699501038,
+    "analysis": {
+      "length": 193,
+      "sentence_count": 1,
+      "avg_sentence_length": 193.0,
+      "repetition_score": 0.023,
+      "keyword_density": 0.256,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:13:25.786553"
+  },
+  {
+    "name": "high_repetition",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 4.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대에 사회경제적 위기를 대표할 수 있는 취약계층이 구조화되는 맥락을 살펴 볼 예정이며, 한국 경제의 수출주도 성장을 주도했던 대기업의 생산방식이 노동자의 숙\\n련을 높여 생산성을 높이고 경쟁력을 강화하는 방향에서 노동자의 숙련을 우회해 생산성을 높이면 되는 방식으로 전환했다는 것을 보여주는 로봇 밀도가 1990년대를 지나면서 급격하게 높아진 것을 확인할 수 있다.",
+    "execution_time": 104.07387161254883,
+    "analysis": {
+      "length": 209,
+      "sentence_count": 1,
+      "avg_sentence_length": 209.0,
+      "repetition_score": 0.085,
+      "keyword_density": 0.404,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:15:09.860695"
+  },
+  {
+    "name": "low_length_penalty",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.6,
+      "depth": 2
+    },
+    "summary": "1960~1970년대, 1980년대 민주화 이전까지 권위주의 정권하에서 한국인 절대빈곤에서 벗어났던 한국 사회를 이해하는데 중요한 근거 중 하나인  '- 3 -n◯첫 번째 그림은 취약계층을 범주화하는 축을 젠더, 계급/계층/세대로 분류한 것임과 동시에 여성, 저소득층, 청년이 취약계층의 한 그룹으로 범주화 될 수 있음을 알 수 있다.",
+    "execution_time": 105.45183372497559,
+    "analysis": {
+      "length": 187,
+      "sentence_count": 1,
+      "avg_sentence_length": 187.0,
+      "repetition_score": 0.024,
+      "keyword_density": 0.238,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:16:55.312801"
+  },
+  {
+    "name": "high_length_penalty",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 1.0,
+      "depth": 2
+    },
+    "summary": "1990년대에 사회경제적 위기를 대표할 수 있는 취약계층이 구조화되는 맥락을 살펴 볼 예정이며, 한국 경제의 수출주도 성장을 주도했던 대기업의 생산방식이 노동자의 숙\\n련을 높여 생산성을 높이고 경쟁력을 강화하는 방향에서 노동자의 숙련을 우회해 생산성을 높이면n이는 방식으로 전환했다는 것을 보여주는 로봇 밀도가 1990년대를 지나면서 급격하게 높아진 것을 확인할 수 있다.",
+    "execution_time": 105.46869397163391,
+    "analysis": {
+      "length": 209,
+      "sentence_count": 1,
+      "avg_sentence_length": 209.0,
+      "repetition_score": 0.087,
+      "keyword_density": 0.435,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:18:40.781753"
+  },
+  {
+    "name": "shallow_depth",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 1
+    },
+    "summary": "1990년대에 사회경제적 위기를 대표할 수 있는 취약계층이 구조화되는 맥락을 살펴 볼 예정이며, 이 지표는 1960~1970년대, 더 나아가 1980년대 민주화 이전까지 권위주의 정권하에서 한국인 절대빈곤에서 벗어났던 한국 사회를 이해하는데 중요한 근거 중 하나이다.  effectsents.represents.orged Only.",
+    "execution_time": 51.41516709327698,
+    "analysis": {
+      "length": 185,
+      "sentence_count": 4,
+      "avg_sentence_length": 46.25,
+      "repetition_score": 0.0,
+      "keyword_density": 0.265,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:19:32.197422"
+  },
+  {
+    "name": "deep_depth",
+    "config": {
+      "num_beams": 6,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 3
+    },
+    "summary": "1960~1970년대, 1980년대 민주화 이전까지 권위주의 정권하에서 한국인 절대빈곤에서 벗어났던 한국 사회를 이해하는데 중요한 근거 중 하나인 '1960-70년대 경인공업지대의 형성과 노동생산성', 『역사문화연구』, 79: 235-284.284로봇 밀도가 높은 것을 확인할 수 있으며, 이 지표를 바탕으로 한국 사회에서 취약계층이 구조화되는 맥락을 살펴 볼 예정이다.",
+    "execution_time": 160.0996286869049,
+    "analysis": {
+      "length": 207,
+      "sentence_count": 2,
+      "avg_sentence_length": 103.5,
+      "repetition_score": 0.025,
+      "keyword_density": 0.275,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:22:12.308693"
+  },
+  {
+    "name": "creative_mode",
+    "config": {
+      "num_beams": 3,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 2.0,
+      "length_penalty": 1.0,
+      "depth": 2
+    },
+    "summary": "1990년대를 전후한 사회경제적 위기를 대표할 수 있는 사회적 위기의 지표 변화로 복지 \\n확대와 성장의 역설”이라는 미발표 논문을 인용하였고 이 지수는 한국 사회를 이해하는데 중요한 근거 중 하나이다.     [geek. k.]geeb.    president, press.  ",
+    "execution_time": 90.91822576522827,
+    "analysis": {
+      "length": 156,
+      "sentence_count": 5,
+      "avg_sentence_length": 31.2,
+      "repetition_score": 0.0,
+      "keyword_density": 0.097,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:23:43.227426"
+  },
+  {
+    "name": "conservative_mode",
+    "config": {
+      "num_beams": 9,
+      "max_length": 150,
+      "min_length": 80,
+      "repetition_penalty": 4.0,
+      "length_penalty": 0.6,
+      "depth": 2
+    },
+    "summary": "1990년대를 사회경제적 위기를 대표할 수 있는 \\n소득불평등, 합계출산율, 자살률의 변화를 통해 한국 사회에서 취약계층이 구조화되는 맥락을 살펴 볼 예정이며, 이 지표는 권위주의 정권 시기 한국인 절대빈곤에서 벗어났던 1965년만 해도 한국의 빈곤율이 무려 %에 달했던 것을 생각하면 매우 일반적이었음을 알 수 있음에 유의해야 함을 알아두길 바란다.",
+    "execution_time": 103.06320118904114,
+    "analysis": {
+      "length": 196,
+      "sentence_count": 1,
+      "avg_sentence_length": 196.0,
+      "repetition_score": 0.022,
+      "keyword_density": 0.289,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:25:26.290864"
+  },
+  {
+    "name": "balanced_short",
+    "config": {
+      "num_beams": 4,
+      "max_length": 120,
+      "min_length": 60,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "사회경제적 위기를 대표할 수 있는 사회적 위기의 지표 변화로 복지 \\n확대와 성장의 역설이라는 미발표 논문에서 인용한 것임으로 경제적 측면에서는 성장방식의 변화와 취약계층의 변화를 확인할 수 있을 것으로 기대되며, 윤홍식 은 윤홍식 이며, 한국 경제의 수출주도 성장을 주도했던 대기업의 생산방식이 노동자의 숙\\n련을 높여 생산성을 높이고 경쟁력을 강화하는 방향에서 노동자의 숙련을 우회해 생산성을 높\\n이는 방식으로 전환했다는 것을 보여주는 로봇 밀도가 1990년대를 경과하면서 급격하게 높아진 것을 확인할 수 있다.",
+    "execution_time": 77.50950884819031,
+    "analysis": {
+      "length": 289,
+      "sentence_count": 1,
+      "avg_sentence_length": 289.0,
+      "repetition_score": 0.106,
+      "keyword_density": 0.348,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:26:43.800611"
+  },
+  {
+    "name": "balanced_long",
+    "config": {
+      "num_beams": 8,
+      "max_length": 180,
+      "min_length": 90,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "1990년대대를 사회경제적 위기를 대표할 수 있는 지표인  'n소득불평등, 합계출산율, 자살률의 변화를 확인 할 수 있을 것으로 예상되며, 전문가들은 1990년대 이후를 주목해야 하는 중요한 근거 중 하나가 될 것으로 판단하고 있으며, 특히 한국 경제의 수출주도 성장을 주도했던 대기업의 생산방식이 노동자의 숙\\n련을 높여 생산성을 높이고 경쟁력을 강화하는 방향에서 노동자의 숙련을 우회해 생산성을 높.",
+    "execution_time": 127.40301465988159,
+    "analysis": {
+      "length": 225,
+      "sentence_count": 1,
+      "avg_sentence_length": 225.0,
+      "repetition_score": 0.078,
+      "keyword_density": 0.314,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:28:51.203860"
+  },
+  {
+    "name": "minimal",
+    "config": {
+      "num_beams": 1,
+      "max_length": 80,
+      "min_length": 40,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 2
+    },
+    "summary": "한국 경제의 경제 성장에 따른 취약계층의 증가 양상을 살펴보고자 한다.  '- 3 -n','-3,--다'를 보면 수도권 거주 저소득 여성의 경우 비수도권에 거주하는 저소득층과 상대적으로 소외된 계층인 것으로 보인다.",
+    "execution_time": 43.661182165145874,
+    "analysis": {
+      "length": 120,
+      "sentence_count": 2,
+      "avg_sentence_length": 60.0,
+      "repetition_score": 0.0,
+      "keyword_density": 0.222,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:29:34.888642"
+  },
+  {
+    "name": "maximal",
+    "config": {
+      "num_beams": 12,
+      "max_length": 250,
+      "min_length": 120,
+      "repetition_penalty": 3.0,
+      "length_penalty": 0.8,
+      "depth": 3
+    },
+    "summary": "비이성애자 집단의 경우 거주 \\n지역, 계급/계층, 세대 등과 관련 없이 차별이 일상적이라는 점을 고려해, (물론 계급/\\n계층, 거주지역 등에 따라 상이하겠지만) 여성, 저소득층, 청년이 취약계층의 한 그룹으로 범주화 될 수 있을 것으로 기대되며, 임마누엘의 첫 번째 그림에서처럼 수도권에 거주하는 저소득 여성도 취약계층으로 분류할 수 있는 등 다양한 축이 중층적으로 취약계층을 세분화할 수 있음을 알 수 있게 되었다고 전하며 한국 사회의 산업화와 성장 과\\n', '- 4 -\\n정을 역사적 맥락에서 집어 보면서 확인할 수 있다고 하였다.",
+    "execution_time": 263.12099051475525,
+    "analysis": {
+      "length": 302,
+      "sentence_count": 1,
+      "avg_sentence_length": 302.0,
+      "repetition_score": 0.055,
+      "keyword_density": 0.219,
+      "error": false
+    },
+    "timestamp": "2025-05-26T12:33:58.009846"
+  }
+]
