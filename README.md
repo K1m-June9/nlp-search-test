@@ -26,7 +26,7 @@ PublicInsight 서비스의 핵심 기능인 '문서 요약'을 위해, 현재 �
 ### **하이퍼파라미터 탐색**
 최종 후보 모델의 성능을 미세 조정하기 위해, `num_beams`, `length_penalty`, `repetition_penalty` 등 요약문 생성에 영향을 미치는 주요 하이퍼파라미터들을 여러 조합으로 테스트하며 결과물의 변화를 관찰
 *   **주요 결과**:
-    <img width="1245" height="966" alt="스크린샷 2025-10-24 13 52 51" src="https://github.com/user-attachments/assets/e3ced117-0fce-4a19-97c3-75ae53e87a84" />
+    <img width="1226" height="920" alt="스크린샷 2025-11-09 12 15 33" src="https://github.com/user-attachments/assets/8087ec18-2fa8-4117-9c52-fc240faabf18" />
     <img width="1227" height="814" alt="스크린샷 2025-10-24 13 53 17" src="https://github.com/user-attachments/assets/de3c70e9-68b7-4d87-95b9-8be23929be86" />
 
 
