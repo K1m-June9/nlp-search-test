@@ -11,14 +11,14 @@ PublicInsight 서비스의 핵심 기능인 '문서 요약'을 위해, 현재 �
 
 ### **후보 모델 탐색 및 최종 후보 선정 (Model Exploration & Finalist Selection)**
 *   **초기 후보 모델**: `BERT`, `T5`, `Pegasus`, `BART`, `XLNet` 등 다양한 계열의 사전 학습 모델을 초기 후보군으로 설정
-*   **최종 후보 선정**: 초기 기술 검증 단계에서 구현 용이성과 안정적인 실행 가능성을 기준으로 **`BART`**와 **`T5`**를 최종 비교 후보로 선정하여 심층적인 성능 분석을 진행
+*   **최종 후보 선정**: 초기 기술 검증 단계에서 구현 용이성과 안정적인 실행 가능성을 기준으로 `BART`와 `T5`를 최종 비교 후보로 선정하여 심층적인 성능 분석을 진행
 *   **주요 결과**:
     <img width="3207" height="1767" alt="model_comparison_heatmap" src="https://github.com/user-attachments/assets/fd7126c2-f653-4fc9-bde7-13bcc86d5523" />
 
 
 ### **핵심 키워드 추출 방법론 검토**
 요약문의 품질과 더불어 문서의 핵심 주제를 파악하기 위한 키워드 추출 능력도 함께 검토
-당초 `KeyBERT`와 같은 최신 딥러닝 기반 모델을 중심으로 테스트를 진행했으나, GPU 부재 등 홈 서버 환경의 리소스 제약을 고려하여 최종적으로는 **`TF-IDF`**와 같은 전통적인 통계 기반 방법론의 실용성을 확인하는 방향으로 전환
+당초 `KeyBERT`와 같은 최신 딥러닝 기반 모델을 중심으로 테스트를 진행했으나, GPU 부재 등 홈 서버 환경의 리소스 제약을 고려하여 최종적으로는 `TF-IDF`와 같은 전통적인 통계 기반 방법론의 실용성을 확인하는 방향으로 전환
 *   **주요 결과**:
     <img width="3228" height="1766" alt="keyword_extraction_heatmap" src="https://github.com/user-attachments/assets/5a8f50e7-6686-4e80-ac24-91326df58cad" />
 
